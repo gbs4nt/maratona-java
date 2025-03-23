@@ -1,4 +1,4 @@
-package introducao.devdojo.maratonajava;
+package introducao.devdojo.maratonajava.introducao;
 
 public class ExercicioArrays03 {
     public static void main(String[] args) {

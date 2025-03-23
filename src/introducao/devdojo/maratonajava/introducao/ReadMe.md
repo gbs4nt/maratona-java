@@ -1,6 +1,6 @@
 # Conceitos para revisão em caso de dúvida:
 
-## Arrays(ou coleção):
+## Arrays:
 São basicamente uma forma de armazenar várias variáveis do mesmo tipo em uma só coleção.
 ## multidimensionais
 Arrays multidimensionais seguem o princípio de que cada [ ] do array faz referência à um outro array

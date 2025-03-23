@@ -1,4 +1,4 @@
-package introducao.devdojo.maratonajava;
+package introducao.devdojo.maratonajava.introducao;
 
 
 
