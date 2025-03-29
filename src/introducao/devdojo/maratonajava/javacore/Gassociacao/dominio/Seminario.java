@@ -5,14 +5,11 @@ public class Seminario {
     private Local local;
     private Aluno[] alunos;
 
-    public Seminario(String titulo) {
+    public Seminario(String titulo, Local local) {
+        this.local = local;
         this.titulo = titulo;
     }
 
-    public Seminario(String titulo, Local local){
-        this.titulo = titulo;
-        this.local = local;
-    }
 
     public Seminario(String titulo, Local local, Aluno[] alunos) {
         this.titulo = titulo;
