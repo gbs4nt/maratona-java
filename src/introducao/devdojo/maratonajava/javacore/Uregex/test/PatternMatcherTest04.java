@@ -23,8 +23,8 @@ public class PatternMatcherTest04 {
         // . 1.3 = 123, 133, 1@1, 1A3
 
 
-//        String regex = "[a-z,A-D]";
-        String regex = "([a-zA-Z0-9\\._-])+@([a-zA-Z])+(\\.([a-zA-Z])+)+";
+        String regex = "[^a-z,A-Z\\S\\d\\s]+";
+//        String regex = "([a-zA-Z0-9\\._-])+@([a-zA-Z])+(\\.([a-zA-Z])+)+";
         String text = "luffy@hotmail.com, 123jotaro@gmail.com, #@!zoro@mail.br, teste@gmail.com, sakura@mail";
         System.out.println("!@#zoro@mail.com".matches(regex));
         Pattern pattern = Pattern.compile(regex);
